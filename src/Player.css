@@ -1,0 +1,27 @@
+/** Track Finder**/
+
+.track__name {
+    font-size: 1.5em;
+    margin-bottom: 0.2em;
+}
+
+.track__artist {
+    margin-bottom: 1em;
+}
+
+.track__img {
+    float: left;
+    margin-right: 10px;
+    text-align: right;
+    width: 45%;
+}
+
+.track__img img {
+    max-width: 80vmin;
+    width: 100%;
+}
+
+.track__side {
+    margin-left: 5%;
+    width: 45%;
+}
