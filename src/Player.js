@@ -10,7 +10,7 @@ const Player = props => {
       //console.log(props.tracks.items[type].name)
       //console.log(props.tracks.items[type].artists[0].name)
       return (
-        <div className="main-wrapper" key={props.tracks.items[type].name + props.tracks.items[type].artists[0].name}>
+        <div className="main-wrapper" key={props.tracks.items[type].name + props.tracks.items[type].artists[0].name + props.tracks.items[type].id}>
           <div className="track__img">
             <img alt = "" src={props.tracks.items[type].album.images[0].url}/>
           </div>
